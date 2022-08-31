@@ -41,7 +41,7 @@
 /* Minor patch to enable the use of Ctrl+v (XA_PRIMARY) and Ctrl+Shift+v (CLIPBOARD) to paste.
  * By default dmenu only supports Ctrl+y and Ctrl+Shift+y to paste.
  */
-#define CTRL_V_TO_PASTE_PATCH 0
+#define CTRL_V_TO_PASTE_PATCH 1
 
 /* This patch adds a flag (-dy) which makes dmenu run the command given to it whenever input
  * is changed with the current input as the last argument and update the option list according
@@ -82,7 +82,7 @@
  * This patch depends on the grid patch.
  * https://tools.suckless.org/dmenu/patches/gridnav/
  */
-#define GRIDNAV_PATCH 0
+#define GRIDNAV_PATCH 1
 
 /* This patch highlights the individual characters of matched text for each dmenu list entry.
  * The fuzzy highlight patch takes precedence over this patch.
@@ -170,7 +170,7 @@
  *
  * https://tools.suckless.org/dmenu/patches/navhistory/
  */
-#define NAVHISTORY_PATCH 0
+#define NAVHISTORY_PATCH 1
 
 /* Adds the -S option to disable sorting menu items after matching. Useful, for example, when menu
  * items are sorted by their frequency of use (using an external cache) and the most frequently
