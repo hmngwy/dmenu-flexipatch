@@ -35,7 +35,7 @@ static char *fonts[] =
 static const char *fonts[] =
 #endif // XRESOURCES_PATCH
 {
-	"FiraCode:size=12"
+	"monospace:size=10"
 };
 #endif // PANGO_PATCH
 #if MANAGED_PATCH
